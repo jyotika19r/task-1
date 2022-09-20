@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+body{
+    margin: 2vh 15vw;
+    background-color:#06172e;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+header {
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 15% 60% 25%;
+}
+.button{
+    background-color: rgb(105, 152, 55);
+    border-radius: 12px;
+}
+#game8{
+    font-size: 2.2vw;
+}
+.head, .join{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.head a, .join a{
+    font-size: 1.2vw;
+    padding: 2%;
+}
+.head a:hover{
+    background-color: rgb(105, 152, 55);
+    border-radius: 12px;
+}
+.div1{
+    display: flex;
+    margin-top: 3vh;
+}
+.div2{
+    display: flex;
+    margin-top: 10vh;
+}
+.para1{
+    margin-top: 19vh;
+}
+.first-line{
+    font-size: 1.1vw;
+    font-family: 'Arial Narrow Bold', sans-serif; 
+    color:green ;
+}
+.second-line{
+    margin-top: 2vh;
+    font-size: 3.6vw;
+    margin-bottom: 2vh;
+}
+.play-button{
+    margin-top: 5vh;
+}
+.play-button a{
+    padding: 2%;
+}
+#war{
+    width: 32vw;
+    margin-left: 15vh;
+}
+#streaming{
+    margin-top: 3vh;
+    width: 29 vw;
+}
+.para2{
+    margin-left: 3vw;
+}
+.div3{
+    margin-top: 10vh;
+}
+.upcoming-match{
+    text-align: center;
+    font-size: 3.5vw;
+}
+.upcoming-match-2{
+    margin:0vh 17vw;
+    text-align: center;
+}
+.matches{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:1.5vw;
+}
+.m1, .m2, .m3, .m4, .m5, .m6{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid greenyellow;
+    border-radius: 4%;
+}
+.start{
+    border: 1px solid greenyellow;
+    border-radius: 4% 4% 0vh 0vh;
+    padding: 6vh 0vw 8vh 3vw;
+    height: 11vh;
+}
+.match_img{
+    width: 5vw;
+}
+.mid{
+    display: flex;
+    background: #06172e;
+    margin:2vh 2vw;
+    padding: 2vh 1vw;
+    justify-content: center;
+    width: 10vw;
+    border: 1px solid greenyellow;
+    border-radius: 2vw;
+}
+.play_img{
+    width:1.6vw;
+}
+.live_stream{
+    color: green;
+    margin:0.4vw;
+    font-size: 1vw;
+}
+.end{
+    padding: 8vh 1vw 4vh 3vw;
+}
+.date{
+    color:greenyellow ;
+    font-size: 0.8vw;
+}
+.game_name{
+    margin-top: 2vh;
+    font-size: 1.2vw;
+}
+.teams{
+margin-top: 2vh;
+color: green;
+font-size: 0.8vw;
+
+}
+#other{
+    text-align: center;
+    margin: 5vh;
+}
+#other a{
+    font-size: 1.2vw;
+    padding : 1vh
+}
+.div4{
+    margin: 10vh 0vw;
+    display: flex;
+    border: 2px green solid;
+    padding: 2% 5%;
+    justify-content: space-between;
+}
+.number{
+    text-align: center;
+    font-size: 3.5vw;
+}
+.content_below{
+background: rgb(105, 136, 105);
+margin-left: 1vw;
+width: fit-content;
+border-radius: 2vw;
+padding: 5%;
+font-size: 0.5vw;
+}
+.foot1{
+    background: green;
+    border-radius: 2vw;
+    display: flex;
+    padding: 5%;
+}
+.newsletter{
+    width: 50%;
+}
+.news{
+    font-size: 2vw;
+}
+.news_content{
+    font-size: 1vw;
+}
+.subscribe_email{
+    display: flex;
+    margin-top: 3vh;
+    background: white;
+    border-radius: 0.6vw;
+    padding: 1%;
+    margin-left: 4vw;
+}
+.subscribe{
+    display: flex;
+    background: black;
+    border-radius: 0.4vw;
+    padding: 2% 1%;
+}
+.input :focus{
+    outline: none;
+}
+#arrow{
+    height: 2.2vh;
+    color: white;
+}
+.foot-end{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: 30% 20% 20% 30%;
+    grid-gap: 1vw;
+}
+.title{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+/* .about{
+    line-height: 3vh;
+} */
+.location{
+    color: greenyellow;
+    margin-bottom: 2vh;
+}
+/* .location-content{
+    line-height: 3vh;
+} */
+.phone{
+    color: greenyellow;
+    margin: 2vh 0;
+}
+.help-items p{
+    margin: 2vh 0;
+}
+.winners{
+    width: 20vw;
+}
