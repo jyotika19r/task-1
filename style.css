@@ -6,8 +6,9 @@
 body{
     margin: 2vh 15vw;
     background-color:#06172e;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: 'Quantico', sans-serif ;
     font-weight: bold;
+   
 }
 a{
     text-decoration: none;
@@ -15,76 +16,176 @@ a{
 header {
     margin-top: 3vh;
     display: grid;
-    grid-template-columns: 15% 60% 25%;
+    grid-template-columns: 20% 50% 30%;
 }
-.button{
+.button, .join-button{
     background-color: rgb(105, 152, 55);
-    border-radius: 12px;
+    border-radius: 4px;
 }
 #game8{
     font-size: 2.2vw;
+    font-family: 'Quantico', sans-serif ;
+    position: relative;
+    bottom: -15px;
 }
-.head, .join{
+.head {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.head a, .join a{
-    font-size: 1.2vw;
+.head a {
+    font-size: 1.2 vw;
     padding: 2%;
 }
+
+.join-button{
+    
+    padding: 4.5%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    position: relative;
+    top: -28px;
+    left: 150px;
+    
+     /* padding-right: 2%;
+    padding-left: 2%;  */
+}
+
 .head a:hover{
     background-color: rgb(105, 152, 55);
     border-radius: 12px;
 }
-.div1{
+select{
+    color: white;
+    outline: none;
+    border: none;
+    padding: 2% 0;
+    background-color: #06172e;
+    font-size: 1vw;
+    font-weight: bold;
+    
+}
+.drop-down{
+    font-family: 'Quantico', sans-serif ;
+}
+#cart{
+    margin: 1vh;
+    width: 2vw;
+    position: relative;
+    bottom: -10px;
+    left:80px;
+
+}
+
+.LiveStreaming-division{
     display: flex;
     margin-top: 3vh;
+    
+
 }
-.div2{
+.Streamer-division{
     display: flex;
     margin-top: 10vh;
 }
-.para1{
+.LiveStreaming-Subdivision-1{
     margin-top: 19vh;
+    position: relative;
+    bottom: -5px;
 }
-.first-line{
+
+.star-division{
+    display: flex;
+    flex-direction: row;
+    
+}
+.first-Subdivision{
     font-size: 1.1vw;
     font-family: 'Arial Narrow Bold', sans-serif; 
     color:green ;
+    display: flex;
+    flex-direction: row;
+    
 }
-.second-line{
+#star{
+
+    margin: 1vh;
+    width: 2vw;
+    position: relative; 
+    top: -20px;
+}
+.second-Subdivision{
     margin-top: 2vh;
     font-size: 3.6vw;
     margin-bottom: 2vh;
+    position: relative;
+    top: -45px;
+    
+}
+.text-division-1{
+    margin-top: 2vh;
+    font-size: 2.9vw;
+    margin-bottom: 2vh;
+}
+.text-division-2{
+    position: relative;
+    top: -10px;
+}
+.LiveStreaming-Text{
+
+position: relative;
+top: -50px;
 }
 .play-button{
     margin-top: 5vh;
+    position: relative;
+    top: -20px;
 }
 .play-button a{
-    padding: 2%;
+    padding: 2.9%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+#yt{
+    margin: 1vh;
+    width:5.5vw;
+    position: relative; 
+    top: -90px;
+    left: 150px;
+    
+
+}
+.dec{
+    line-height: 100%;
+}
+#play-button-division{
+    display: flex;
+    flex-direction: row;
+    
 }
 #war{
     width: 32vw;
     margin-left: 15vh;
 }
 #streaming{
-    margin-top: 3vh;
-    width: 29 vw;
+    margin: 1vh;
+    width: 35vw;
 }
-.para2{
+.Streamer-Subdivision-1{
     margin-left: 3vw;
+    position: relative; 
+    bottom: -40px;
+
 }
-.div3{
+.Match-Division{
     margin-top: 10vh;
 }
 .upcoming-match{
     text-align: center;
     font-size: 3.5vw;
 }
-.upcoming-match-2{
+.upcoming-match-text{
     margin:0vh 17vw;
     text-align: center;
 }
@@ -94,13 +195,13 @@ header {
     grid-template-columns: auto auto auto;
     grid-gap:1.5vw;
 }
-.m1, .m2, .m3, .m4, .m5, .m6{
+.match1, .match2, .match3, .match4, .match5, .m6{
     display: flex;
     flex-direction: column;
     border: 1px solid greenyellow;
     border-radius: 4%;
 }
-.start{
+.matches-Subdivision-1{
     border: 1px solid greenyellow;
     border-radius: 4% 4% 0vh 0vh;
     padding: 6vh 0vw 8vh 3vw;
@@ -109,7 +210,7 @@ header {
 .match_img{
     width: 5vw;
 }
-.mid{
+.matches-Subdivision-2{
     display: flex;
     background: #06172e;
     margin:2vh 2vw;
@@ -127,7 +228,7 @@ header {
     margin:0.4vw;
     font-size: 1vw;
 }
-.end{
+.matches-Subdivision-3{
     padding: 8vh 1vw 4vh 3vw;
 }
 .date{
@@ -152,7 +253,7 @@ font-size: 0.8vw;
     font-size: 1.2vw;
     padding : 1vh
 }
-.div4{
+.Content-Division{
     margin: 10vh 0vw;
     display: flex;
     border: 2px green solid;
@@ -171,7 +272,7 @@ border-radius: 2vw;
 padding: 5%;
 font-size: 0.5vw;
 }
-.foot1{
+.footer-Division-start{
     background: green;
     border-radius: 2vw;
     display: flex;
@@ -207,7 +308,7 @@ font-size: 0.5vw;
     height: 2.2vh;
     color: white;
 }
-.foot-end{
+.footer-Division-end{
     margin-top: 10vh;
     display: grid;
     grid-template-columns: 30% 20% 20% 30%;
